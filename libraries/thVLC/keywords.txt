@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For thVLC lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+thVLC	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+getID	KEYWORD2
+sensorRead	KEYWORD2
+receiveReady	KEYWORD2
+receiveResult	KEYWORD2
+ledWrite	KEYWORD2
+sendByte	KEYWORD2
+txSetByte	KEYWORD2
+txSend	KEYWORD2
+
+TRI_UAN_0	LITERAL1
+TRI_UAN_1	LITERAL1
+TRI_UAN_2	LITERAL1
+TRI_UAN_3	LITERAL1
+TRI_UAN_4	LITERAL1
