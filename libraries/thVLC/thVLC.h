@@ -44,11 +44,11 @@ public:
   static void begin();
   static byte getID();
 
-	static int sensorRead(byte pin);
-	static boolean receiveReady(byte pin);
-	static byte receiveResult(byte pin);
+  static int sensorRead(byte pin);
+  static boolean receiveReady(byte pin);
+  static byte receiveResult(byte pin);
 
-	static void ledWrite(byte pin, byte state);
+  static void ledWrite(byte pin, byte state);
   static void sendByte(byte pin, byte value);
   static void txSetByte(byte pin, byte value);
   static void txSend();
