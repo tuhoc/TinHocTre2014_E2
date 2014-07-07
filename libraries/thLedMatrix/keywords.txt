@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map For thLedMatrix lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+thLedMatrix	KEYWORD1
+BITMAP	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+clear	KEYWORD2
+setPixel	KEYWORD2
+setColumn	KEYWORD2
+setBitmap	KEYWORD2
+
+
+BLACK	LITERAL1
+RED	LITERAL1
+GREEN	LITERAL1
+ORANGE	LITERAL1
+
