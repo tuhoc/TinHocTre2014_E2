@@ -37,35 +37,35 @@ void TriUan_1()        // TriUan_1 có 2 vị trí
 {
   if (thVLC_checkReceiveValue(4, 100))
   {
-    thVLC.sendByte(3, 101);
+    thVLC.sendByte(3, 101);                           // 1a (ngửa)
   }
   
   if (thVLC_checkReceiveValue(3, 106))
   {
-    thVLC.sendByte(4, 107);
+    thVLC.sendByte(4, 107);                           // 1b (xấp)
   }
 }
 
 
 void TriUan_2()        // TriUan_2 có 2 vị trí và có đặt thể ngửa hay xấp
 {
-  if (thVLC.receiveReady(4))
-  {
-    byte rxData = thVLC.receiveResult(4);
-    switch (rxData)
-    {
-      case 102:  thVLC.sendByte(5, 103);  break;
-      case 104:  thVLC.sendByte(5, 105);  break;
-    }
-  }
-  
   if (thVLC.receiveReady(5))
   {
     byte rxData = thVLC.receiveResult(5);
     switch (rxData)
     {
-      case 102:  thVLC.sendByte(4, 103);  break;
-      case 104:  thVLC.sendByte(4, 105);  break;
+      case 102:  thVLC.sendByte(4, 103);  break;      // 2a ngửa
+      case 104:  thVLC.sendByte(4, 105);  break;      // 2b ngửa
+    }
+  }
+
+  if (thVLC.receiveReady(4))
+  {
+    byte rxData = thVLC.receiveResult(4);
+    switch (rxData)
+    {
+      case 102:  thVLC.sendByte(5, 103);  break;      // 2a xấp
+      case 104:  thVLC.sendByte(5, 105);  break;      // 2b xấp
     }
   }
 }
