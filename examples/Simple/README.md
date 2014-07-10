@@ -29,7 +29,7 @@ Khi ghép thành hình chữ nhật thì:
 - Cổng 6 của khối 3  nằm đối diện với cổng 3 của khối 1b (106)
 - Cổng 4 của khối 1b nằm đối diện với cổng 3 của khối 0  (107)
 
-Như vậy nếu ta lần lượt gửi các dữ liệu 100, 101,..., 107 qua tám cặp cổng giao tiêp VLC này thì sẽ nhận biết được khi hình chữ nhật đã được ghép xong.
+Như vậy nếu ta lần lượt gửi các dữ liệu 100, 101,..., 107 qua tám cặp cổng giao tiếp VLC này thì sẽ nhận biết được khi hình chữ nhật đã được ghép xong.
 
 Cụ thể có các bước sau:
 
